@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Java script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-script-os",
+    "start:darwin:linux":
+      "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser 'google-chrome'"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "run-script-os": "^1.0.2"
+  },
+  "repository": "git+https://github.com/codeShaurya/javascript.git",
+  "author": "Shubham Maurya <code.shaurya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeShaurya/javascript/issues"
+  },
+  "homepage": "https://github.com/codeShaurya/javascript#readme"
+}
